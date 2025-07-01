@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Channel - Join Now</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="aurora"></div>
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="avatar" id="channelAvatar">
+                📱
+            </div>
+            
+            <h1 class="channel-name" id="channelName">Загрузка...</h1>
+            
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-number" id="subscriberCount">-</span>
+                    <span class="stat-label">Подписчики</span>
+                </div>
+            </div>
+            
+            <p class="description" id="channelDescription">
+                Загрузка описания канала...
+            </p>
+            <a href="tg://join?invite=CbbLKc6EtRo3N2Ri">
+                <button class="join-button">
+                    <span class="telegram-icon">🚀</span>
+                    JOIN CHANNEL
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
